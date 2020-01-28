@@ -1,0 +1,47 @@
+{
+  "name" : "velvetropes/vr-next-api",
+  "description" : "API of Velvet Ropes",
+  "repositories": [
+    {
+      "type":"package",
+      "package": {
+        "name": "phalcon/phalcon-devtools",
+        "version":"3.4.1",
+        "source": {
+          "url": "http://github.com/phalcon/phalcon-devtools",
+          "type": "git",
+          "reference":"3.4.1"
+        }
+      }
+    }
+  ],
+  "require" : {
+    "php" : ">=7.2.0",
+    "phalcon/devtools": "~3.4.1",
+    "ext-phalcon" : "^3.4.2",
+    "swiftmailer/swiftmailer" : "5.2.*",
+    "google/apiclient": "^2.0",
+    "facebook/php-sdk-v4" : "~5.0",
+    "abraham/twitteroauth": "^0.5.3",
+    "ircmaxell/random-lib": "~1.0",
+    "robmorgan/phinx" : "^0.10.7",
+    "mailchimp/mailchimp": "~2.0.6",
+    "google/recaptcha": "~1.1",
+    "guzzlehttp/guzzle": "~6.0",
+    "chrisbarr/amazon-sns-php-api": "~1.0",
+    "stripe/stripe-php": "^7.6",
+    "maknz/slack": "^1.7",
+    "aws/aws-sdk-php": "^3.98"
+  },
+  "require-dev": {
+    "phalcon/devtools": "~3.4"
+  },
+  "authors" : [ {
+    "name" : "Aleks Drogobetski",
+    "email" : "info@velvetropes.com"
+  }],
+  "keywords" : ["vr-next-api" ],
+  "type" : "app",
+  "homepage" : "https://www.velvetropes.com",
+  "license" : "proprietary"
+}
